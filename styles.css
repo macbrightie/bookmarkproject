@@ -1,8 +1,7 @@
 body{
-    max-width: 405px;
-    background: ;
+    /* max-width: 405px; */
     font-family: 'Rubik', sans-serif;
-    margin: auto;
+   margin: 0 auto;
 }
 
 
@@ -30,7 +29,7 @@ opacity: 0.5;
     margin-left:40% ;
 }
 .last{
-    margin-top: 45%;
+    margin-top: 38%;
 }
 
 .btn-light{
@@ -71,7 +70,7 @@ li{
         padding: 5% 0 0 0;
         line-height: 3rem;
       background:  hsl(229, 31%, 21%);
-      opacity: 0.9;
+      opacity: 0.989;
       height: 650px;
       list-style: none;
      }
@@ -110,14 +109,13 @@ li{
     position: absolute;
     background-color:  hsl(231, 69%, 60%);
     height: 200px;
-    width: 300px;
+    width: 65%;
     z-index: -1;
-    top: 42%;
-
+    top: 43%;
 }
 .design-1{
     border-radius: 45% 0  0 45%;
-    top: 20%;
+    top: 40%;
     margin-left: 25%;
 }
 .first-design{
@@ -176,6 +174,7 @@ h2{
     border: solid grey 0 0 2px 0;
     width: 80%;
     margin-top: 0;
+    top: 30%;
 }
 .drop-down-area{
     text-align:center;
@@ -227,7 +226,7 @@ box-shadow: #ccc 2px 5px 7px 5px;
 border-radius: 5%;
 }
 .line{
-    width: 100%;
+    width: 90%;
 }
 .logo{
     margin-top: 20%;
@@ -257,22 +256,20 @@ h5{
 }
 .drop-button1{
 
-    margin-left: 50%;
+    margin-left: 55%;
 }
-
-
 
 .drop-button2{
 
-    margin-left:17.5%;
+    margin-left:29%;
 }
 .drop-button3{
 
-    margin-left: 42.5%;
+    margin-left:50%;
 }
 .drop-button4{
 
-    margin-left: 5.5%;
+    margin-left: 19%;
 }
 .close1 , .close2 , .close3 , .close4{
 transform: rotate(180deg);
@@ -282,6 +279,7 @@ bottom: 35px;
 }
 .hr2{
     width: 100%;
+    margin: 16px auto ;
 }
 
 
@@ -353,18 +351,6 @@ margin: 40px 30% ;
 box-shadow:  grey 0 0 5px 0 ;
 
  }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
