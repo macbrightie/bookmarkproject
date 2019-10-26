@@ -23,9 +23,21 @@
   <div class="nav-head">
  <div class="brand"> <img src="images/logo-bookmark.svg" alt=""> <img class="hamburger" src="images/icon-hamburger.svg" alt="">  </div>
 </div>
+
 <!-- where i ll correct my nav bar when it has been opened -->
  <div class=" navbar-open-close" >
+   <div class="wide-screen-view">
+  <a class="navbar-wide" href="#">Features</a> 
+  <a class="navbar-wide" href="#">pricing</a> 
+  <a class="navbar-wide" href="#">Contact</a> 
+  <a class="navbar-wide" href="#">Login</a> 
+
+
+  
+</div>
+<!-- show when viewed in a smaller screen -->
     <div class="navbar-div">
+   
     <ul class=" mr-auto">
         <li class="nav-item ">
             <a class="nav-link nav-link-1" href="#"> <img src="images/logo-bookmark-3.svg" alt="">  <img  class="icon-close" src="images/icon-close.svg" alt=""><span class="sr-only">(current)</span></a> <hr class="first-line">
@@ -54,7 +66,7 @@
 
 </div>
 
-<!-- end of th navbarr andbegimimg of the first sectiom -->
+<!-- end of th navbar and begimimg of the first sectiom -->
   
     <section class="first-section">
   
@@ -85,7 +97,7 @@
     <div class="features">
         <h2>Features</h2>
   
-       <p> Our aim is to make it quick and easy for you to access your favourite websites. 
+       <p class="wide-para"> Our aim is to make it quick and easy for you to access your favourite websites. 
           Your bookmarks sync between your devices so you can access them on the go.</p>
     </div>
   
@@ -94,18 +106,27 @@
   
   <div class=" drop-down-area">
       <div class="row"> <hr class="hr">
+        
           <div class="col-lg-4">       
-             <a id="drop-button1" class="drop-button" href="#">Simple Bookmarking </a>
-          </div> <hr class=" underline underline1"><hr  class="hr">
+            
+          <a id="drop-button1" class="drop-button" href="#">Simple Bookmarking </a>
+          <hr class=" underline underline1"><hr  class="hr">
+        </div> 
+          
+         
           <div class="col-lg-4">
-              <a href="#">  </a>
               <a id="drop-button2" class=" drop-button" href="#">Speedy Searching </a>
-            </div><hr class=" underline underline2"> <hr  class="hr">
+              <hr class=" underline underline2"> <hr  class="hr">
+            </div>
+          
             <div class="col-lg-4">
                 <a id="drop-button3" class=" drop-button" href="#">Easy Sharing </a>
-              </div> <hr class=" underline underline3"><hr  class="hr">
+               <hr class=" underline underline3"><hr  class="hr">
+              </div> 
+             
         
         </div>
+        <hr class="line">
   </div>
   <div class="row">
     <div class="col-lg-6">
@@ -123,27 +144,25 @@
   
        <p> Organize your bookmarks however you like. Our simple drag-and-drop interface 
           gives you complete control over how you manage your favourite sites.</p>
+        
+      <button type="button" class="btn btn-primary" id="more-info">More Info</button>
         </div> 
         <div class=" bookmark bookmark2"> 
  <h2> Intelligent search </h2>
   
     <p>Our powerful search feature will help you find saved sites in no time at all. 
     No need to trawl through all of your bookmarks.</p> 
+    <button type="button" class="btn btn-primary" id="more-info2">More Info</button>
   </div> 
-    <!-- More Info -->
+    <!-- More Info only on desktop version -->
     <div class=" bookmark  bookmark3 ">
     <h2>    Share your bookmarks </h2>
 
     <p> Easily share your bookmarks and collections with others. Create a shareable 
     link that you can send at the click of a button. </p>
+    <button type="button" class="btn btn-primary" id="more-info3">More Info</button>
 </div>
   </div> 
-
-
-
-
-
-
 
        <!-- <button> More Info</button> -->
      
@@ -158,7 +177,7 @@
     <div class="download bookmark"> 
        <h2> Download the extension</h2>
   
-    <p>    We’ve got more browsers in the pipeline. Please do let us know if you’ve 
+    <p class="download-p">    We’ve got more browsers in the pipeline. Please do let us know if you’ve 
         got a favourite you’d like us to prioritize.</p>
   
     </div>
@@ -169,33 +188,33 @@
             <div class="row">
                 
                 <div class="col-lg-4">
-              <div class="browser 1">
+              <div class="browser browser1">
                 <img class="logo" src="images/logo-chrome.svg" alt="">
                 <h3> Add to Chrome</h3>
-                <p> Minimum version 62</p>
+                <p class="browser-para"> Minimum version 62</p>
                 <img  class="line" src="images/bg-dots.svg" alt="">
-                 <button class="browser-button" >Add & Install Extension</button>
+                 <button class="browser-button browser-button1" >Add & Install Extension</button>
   
               </div>
               
                   </div>
                   <div class="col-lg-4">
-              <div class="browser 2">
+              <div class="browser browser2">
                 <img class="logo" src="images/logo-firefox.svg" alt="">
                   <h3>Add to Firefox</h3>
-                  <p> Minimum version 55</p>
+                  <p class="browser-para"> Minimum version 55</p>
                   <img class="line" src="images/bg-dots.svg" alt="">
-                   <button class="browser-button">Add & Install Extension</button>
+                   <button class="browser-button browser-button2">Add & Install Extension</button>
               </div>
               
                     </div>
                     <div class="col-lg-4">
-                  <div class="browser 3">
+                  <div class="browser browser3">
                     <img class="logo" src="images/logo-opera.svg" alt="">
                       <h3>Add to Opera</h3>
-                      <p> Minimum version 46</p>
+                      <p class="browser-para"> Minimum version 46</p>
                       <img  class="line" src="images/bg-dots.svg" alt="">
-                       <button class="browser-button">Add & Install Extension</button>  
+                       <button class="browser-button browser-button3">Add & Install Extension</button>  
                   </div>
                   
                       </div>
@@ -207,14 +226,14 @@
     </section>
   <!-- Frequently-asked-questions -->
   
-    <div  class="Frequently-asked-questions bookmark">
-  <h1>   Frequently Asked Questions </h1>
-  <p>  Here are some of our FAQs. If you have any other questions you’d like 
-        answered please feel free to email us.</p>
-    </div>
+    
   <!-- the questions -->
     <section class="questions">
-  
+  <div  class="Frequently-asked-questions bookmark">
+  <h1>   Frequently Asked Questions </h1>
+  <p class="faq-p">  Here are some of our FAQs. If you have any other questions you’d like 
+        answered please feel free to email us.</p>
+    </div>
   <hr class="hr2">
   <div class="faq">
        <!-- Question 1 -->
@@ -275,29 +294,35 @@
    
   <section class="footer-section">
    <div class="all-down">
-     <img src="images/logo-bookmark-2.svg" alt="">
+     <div class="last-row">
       <div class="row"> 
     
-          <div class="col-lg-4"> 
+        <div class="col-sm-3"> 
+          <img src="images/logo-bookmark-2.svg" alt="">
+       </div>
+          <div class="col-sm-3"> 
                FEATURES
             </div>
-            <div class="col-lg-4"> 
+            <div class="col-sm-3"> 
                  PRICING
               </div>
-              <div class="col-lg-4"> 
+              <div class="col-sm-3"> 
                CONTACT
                 </div>
+              </div>      
+ </div>
+           <div class="socials"> 
+            <img class="facebook" src="images/icon-facebook.svg" alt="">
+            <img class="twitter" src="images/icon-twitter.svg" alt="">
+             </div>      
         </div>
-        <img class="facebook" src="images/icon-facebook.svg" alt="">
-        <img class="twitter" src="images/icon-twitter.svg" alt="">
+        
   </div>
+  
   </section>
   
   <!-- footer-section -->
-  
-   
-  
-    <!-- More Info -->
+ 
 
   <footer>
     <p class="attribution">

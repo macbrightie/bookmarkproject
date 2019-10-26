@@ -1,7 +1,6 @@
 body{
-    /* max-width: 405px; */
     font-family: 'Rubik', sans-serif;
-   margin: 0 auto;
+   /* margin: 0 auto; */
 }
 
 
@@ -9,6 +8,9 @@ body{
 
 /* navbar */
 
+.wide-screen-view{
+    display: none;
+}
 .nav-link{
     color: white;
 }
@@ -202,11 +204,19 @@ h2{
     border: 2px solid red;
     width: 30%;
 }
+.line{
+    display: none;
+
+}
 
  .drop-button:hover{
   color: grey;
     
 } 
+#more-info , #more-info2 , #more-info3{
+    display: none;
+   
+}
 
 /* download the extension  */
 
@@ -239,10 +249,14 @@ h3{
     
     background:hsl(231, 69%, 60%);
     border-radius:5px;
-    color:#ffffff;
+    color:white;
     font-size:0.9rem;
     padding: 0.8rem 0.9rem;
  
+}
+.browser-button2{
+    background: white;
+    color: blue;
 }
 
 /* the questions */
@@ -344,6 +358,10 @@ line-height: 4rem;
 .facebook , .twitter {
     margin: 15px;
 }
+ .twitter:hover {
+    color: orangered;
+}
+
  .btn{
 background: hsl(231, 69%, 60%);
 padding: 0.7rem 2rem;
@@ -365,4 +383,187 @@ box-shadow:  grey 0 0 5px 0 ;
 .attribution a {
      color: hsl(228, 45%, 44%) ; 
 
+}
+
+/* media query section for desktop version */
+
+@media only screen  and (min-width:900px){
+body{
+
+ overflow-x: hidden; 
+}
+
+.hamburger{
+    display: none;
+}
+.wide-screen-view{
+    display: inline;
+    position: absolute;
+    width: 40%;
+    right:2%;
+    top: 20%;
+}
+.navbar-wide{
+color: #000000;
+margin: 10px 20px;
+
+}
+
+.navbar-wide:hover{
+    text-decoration: none;
+border: 1px solid orangered;
+border-radius: 6%;
+padding: 0.5rem 1.2rem;
+background: orangered;
+box-shadow: #cccccc 1px 1.5px 3px ;
+}
+
+/* fisrt section */
+.simple-bookmark{
+position: relative;
+right: 100%;
+top: 10%;
+}
+
+.hero{
+    position: relative;
+    left: 100%;
+    padding-right: 0;
+    
+}
+
+.design-1{
+height: 60%;
+   top: 40%;
+   left: 2% ;
+   width: 80%;
+}
+.design-2{
+    height: 60%;
+       top: 43%;
+       left: 2% ;
+       width: 80%;
+    }
+
+
+/* .features */
+
+.wide-para{
+
+    width: 100%;
+    text-align: center;
+}
+.features{
+    width: 40%;
+    margin: 0 auto;
+}
+
+/* drop down area on a wider screen */
+
+.first-drop{
+    width: 40%;
+}
+
+.drop-down-area{
+width: 80%;
+margin: 4% auto;
+}
+
+.hr{
+    display: none;
+}
+
+.tab-1{
+    width: 90%;
+}
+.bookmark{
+    width: 70%;
+    height: 50%;
+ padding-top: 7%;
+}
+p{
+    width: 90%;
+    text-align: left;
+    line-height: 1.5rem;
+}
+
+#more-info , #more-info2 , #more-info3{
+    display: block;
+   margin: 10% 100% 15% 0;
+   padding: 10px;
+   width: 30%;
+}
+.line{
+    display: block;
+    
+}
+.download{
+    width: 40%;
+    
+}
+.download-p , .browser-para , .faq-p{
+    text-align: center;
+}
+
+.browser2{
+margin-top: 30%;
+}
+.browser3{
+  margin-top: 40%;  
+}
+.browser-button2{
+    background: white;
+    color: blue;
+}
+.web-browsers{
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* frequently asked .questions */
+.Frequently-asked-questions{
+    width: 80%;
+    margin: 0 auto;
+}
+.questions{
+    width: 50%;
+    margin: 0 auto;
+}
+.drop-button1{
+
+    margin-left: 63%;
+}
+
+.drop-button2{
+
+    margin-left:43%;
+}
+.drop-button3{
+
+    margin-left:59.3%;
+}
+
+.drop-button4{
+    margin-left: 35.8%;
+}
+
+.all-down{
+    width: 90%;
+   
+    margin-left: 10%;
+    height: 80px;
+
+}
+.attribution{
+    margin-bottom: 0;
+}
+.last-row{
+    width: 50%;
+     
+}
+.socials{
+    position: relative;
+    left: 40%;
+    bottom: 80%;
+    display: block;
 }
